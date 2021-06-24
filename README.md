@@ -9,3 +9,7 @@ npm run dev
 yarn
 yarn dev
 ```
+
+check the demo app here 
+
+https://startup-homepage.netlify.app/
