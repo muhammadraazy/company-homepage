@@ -185,7 +185,7 @@ export default function TeamSection() {
 
           <Grid sx={styles.grid}>
               { data.map(item => (
-                 <TeamCard 
+                 <TeamCard sx={styles.hover}
                  key={item.id} src={item.imgSrc}  altText={item.altText} title={item.title} designation={item.designation} social={item.socialProfile}
                   />
               )) }
@@ -207,4 +207,8 @@ const styles = {
       'repeat(3,1fr)',
     ],
   },
+
+  hover: {
+    cursor: 'pointer',
+  }
 };
